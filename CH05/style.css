@@ -1,0 +1,60 @@
+ /*
+  Author: Student Name
+  Date: Current Date
+  File Name: styles.css
+Style rules for mobile viewport
+Hide tab-desk class
+.tab-desk {
+     display: none;
+}
+
+html, body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    padding: 0;
+}
+
+nav li {
+    display: block;
+    border-top: 1px solid #e5e9fc;
+}
+.action {
+    font-size: 1.25em;
+}
+
+#piano, #guitar, #violin {
+    /* width removed */
+    /* float removed */
+	project/
+│ Home.html
+│ css/
+   └── style.css
+
+.round {
+    border-radius: 8px;
+}
+.tel-link {
+     background-color: #373684;
+     padding: 2%;
+     margin: 0 auto;
+     width: 80%;
+     text-align: center;
+     border-radius: 5px;
+}
+.tel-link a {
+     color: #fff;
+     text-decoration: none;
+     font-size: 1.5em;
+     display: block;
+}
+#contact .email-link {
+    /* existing styles stay exactly the same */
+}
+.map {
+    width: 95%;
+    height: 50%;
+    /* keep any existing properties */
+}
